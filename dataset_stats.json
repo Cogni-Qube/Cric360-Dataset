@@ -1,0 +1,82 @@
+{
+  "dataset": "Cric-360",
+  "version": "2.0",
+  "generated_utc": "2026-07-16T12:54:00Z",
+  "grand_total_images": 16405,
+  "subsets": {
+    "grounds": {
+      "content_type": "real_broadcast",
+      "total_images": 9987,
+      "width_range": [
+        1280,
+        1924
+      ],
+      "height_range": [
+        602,
+        990
+      ],
+      "quality_breakdown": {
+        "HD-Ready": 6432,
+        "HD": 3555
+      },
+      "split_breakdown": {
+        "train": 8015,
+        "validation": 964,
+        "test": 1008
+      },
+      "top_resolutions": {
+        "1280x602": 2448,
+        "1280x625": 1425,
+        "1280x616": 1403,
+        "1920x990": 1090,
+        "1280x620": 826,
+        "1921x920": 755,
+        "1920x930": 663,
+        "1920x945": 553,
+        "1921x930": 408,
+        "1280x630": 330
+      },
+      "source_tags": {
+        "cognizant": 2424,
+        "bbl": 2066,
+        "frame": 1449,
+        "test": 1090,
+        "irl vs ind": 826,
+        "psl": 709,
+        "ipl": 553,
+        "ban test": 408,
+        "sunrise": 330,
+        "ban": 47,
+        "psll": 46,
+        "ind vs afg": 33,
+        "aus": 6
+      }
+    },
+    "games": {
+      "content_type": "synthetic",
+      "total_images": 6418,
+      "width_range": [
+        2412,
+        2412
+      ],
+      "height_range": [
+        1080,
+        1080
+      ],
+      "quality_breakdown": {
+        "Full HD": 6418
+      },
+      "split_breakdown": {
+        "test": 653,
+        "train": 5124,
+        "validation": 641
+      },
+      "top_resolutions": {
+        "2412x1080": 6418
+      },
+      "source_tags": {
+        "real_cricket": 6418
+      }
+    }
+  }
+}
