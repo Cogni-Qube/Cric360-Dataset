@@ -145,11 +145,11 @@ Cric360-Dataset/
 ├── LICENSE                 ← Apache 2.0 (see Licensing for the synthetic-subset carve-out)
 ├── NOTICE                  ← third-party content / license scope
 ├── dataset_stats.json      ← combined statistics (v1 + v2)
+├── metadata.csv            ← all 13,545 real frames (v1 + v2) — mirrors Hugging Face
 ├── notebooks/
 │   └── Cric360_v2_quickstart.ipynb   ← Colab quickstart
 ├── metadata/
-│   ├── grounds_metadata.csv  (v2 real frames)
-│   └── games_metadata.csv    (on-request subset)
+│   └── games_metadata.csv  ← on-request synthetic subset (6,418)
 └── assets/
     └── banner.png, sample_grounds_broadcast.jpg, sample_games_synthetic.jpg
 ```
